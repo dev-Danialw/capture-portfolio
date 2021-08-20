@@ -1,13 +1,15 @@
 import React from "react";
-import ServicesSection from "../components/ServicesSection";
 // Page Components
 import AboutSection from "../components/AboutSection";
+import ServicesSection from "../components/ServicesSection";
+import FaqSeqtion from "../components/FaqSection";
 
 const AboutUs = () => {
   return (
     <>
       <AboutSection />;
-      <ServicesSection />;
+      <ServicesSection />
+      <FaqSeqtion />
     </>
   );
 };
