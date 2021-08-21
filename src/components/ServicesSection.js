@@ -1,4 +1,3 @@
-import { template } from "@babel/core";
 import React from "react";
 // import icons & image
 import clock from "../img/clock.svg";
